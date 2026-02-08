@@ -18,6 +18,8 @@ sq321 = x * x where x = 321
 
 
 -- Functions
+-- the difference between twice1 and twice2 is just syntatic, they are exaclty ths eame
+-- "syntatic sugar"
 twice1 n = 2 * n
 
 twice2 = \n -> 2 * n  -- lambda-expression
